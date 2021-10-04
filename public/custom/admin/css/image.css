@@ -1,0 +1,14 @@
+img[data-b-img] {
+    height: 70%!important;
+    overflow: auto!important;
+    top: 50%!important;
+    object-fit: contain;
+    left: 50%!important;
+    transform: translate(-50%, -50%);
+}$(function(){ $(".c-body img").popImg(); })
+body .dataTables_wrapper .dataTables_paginate .paginate_button{
+	padding: 0.5em 0;
+}
+.mendatory {
+    color: red;
+}
